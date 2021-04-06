@@ -1,0 +1,45 @@
+Esercizio 1:
+Scrivere un programma che legga da linea di comando una stringa e due caratteri 
+diversi. Il programma deve contare le occorrenze dei caratteri nella stringa e 
+stampare su standard output quale carattere appare più volte.
+
+Esercizio 2:
+Scrivere un programma che restituisca il prodotto di tutti i numeri passati come 
+argomenti da linea di comando e stampi su standard output il risultato.
+
+N.B.: per poter convertire una stringa in un numero è possibile utilizzare la funzione 
+di libreria 
+
+int atoi(const char *str);
+
+Esercizio 3:
+Si scriva un programma che, letto un array di caratteri (lettere maiuscole e 
+minuscole) da standard input, lo cambi convertendo le lettere minuscole in 
+maiuscola. Utilizzare unicamente l'aritmetica dei puntatori (non si deve accedere al 
+vettore con []). Visualizzare su standard output il risultato. 
+
+Esercizio 4:
+Un sistema di cronometraggio per la gare automobilistiche registra i tempi di gara 
+in millisecondi. Tuttavia tali tempi devono essere presentati al pubblico secondo la 
+visualizzazione: minuti, secondi e millisecondi. 
+Scrivere una funzione che riceva in input i millisecondi e "restituisca" l'equivalente 
+in minuti, secondi e millisecondi (tramite opportuni parametri passati per indirizzo). 
+
+Esercizio 5:
+Dato un file di testo F, scrivere un programma che, acquisita una stringa 
+(senza spazi) da standard input, la ricerchi all'interno del file e stampi 
+su standard output il numero di occorrenze della stringa nel file.
+
+Esercizio 6:
+Si crei un programma che scriva un file binario contenente le informazioni relative 
+ai cittadini di un paese. Ogni "record" del file rappresenta una singola persona e 
+contiene le seguenti informazioni:
+• Nome
+• Cognome
+• Data di nascita: struct di 3 interi che rappresentano la data
+• Luogo di nascita
+• Indirizzo
+• CF: sequenza univoca di 16 caratteri
+Il programma deve riempire opportunamente il file con le informazioni immesse 
+dall'utente (standard input) e successivamente visualizzarne il contenuto su 
+standard output.
