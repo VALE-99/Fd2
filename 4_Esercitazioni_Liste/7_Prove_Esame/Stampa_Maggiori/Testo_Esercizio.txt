@@ -1,0 +1,8 @@
+typedef struct Item{
+	int voto;
+	struct item *next;
+}nodo;
+
+Chiedere all'utente di inserire 10 voti e creare la lista dei voti ordinata in modo crescente e visualizzarla,
+senza l'ausilio di vettori e algoritmi di ordinamento. 
+Utilizzando la lista, scrivere una funzione che calcoli il numero di coppie (e solo copie) di valori uguali presenti.

@@ -1,0 +1,13 @@
+sia data una lista contenente almeno due elementi ed i cui record sono definiti tramite la seguente struttura C:
+
+
+struct nodo{
+
+	int valore;
+	struct node* prev	
+	struct node* next;
+}
+
+si scriva una funziona C che ricevendo in ingresso un puntatore alla lista modifichi la stessa, 
+eliminando i nodi il cui valore è la somma del suo predecessore e del suo successore, 
+iniziando lo scorrimento dalla testa della lista stessa.
