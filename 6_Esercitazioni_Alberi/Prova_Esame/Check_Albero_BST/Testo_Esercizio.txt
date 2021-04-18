@@ -1,3 +1,0 @@
-Dato un albero binario contenente valori interi, scrivere una funzione che ritorna 1 
-se verifica la proprietà BST cioè se ogni nodo ha come figli "sx" solo elementi "<" del padre e
-figli "dx" elementi ">" del padre.
