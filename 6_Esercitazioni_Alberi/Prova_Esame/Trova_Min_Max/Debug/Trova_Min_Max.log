@@ -1,4 +1,0 @@
-﻿  Min_Max.c
-c:\users\valer\source\repos\_fd2_19_aprile\5_esercitazioni_alberi\prove_esame\trova_min_max\min_max.c(22): warning C4090: 'initializing': different 'const' qualifiers
-c:\users\valer\source\repos\_fd2_19_aprile\5_esercitazioni_alberi\prove_esame\trova_min_max\min_max.c(51): warning C4090: 'initializing': different 'const' qualifiers
-  Trova_Min_Max.vcxproj -> C:\Users\valer\source\repos\_FD2_19_APRILE\5_Esercitazioni_Alberi\Prove_Esame\Trova_Min_Max\Debug\Trova_Min_Max.exe
