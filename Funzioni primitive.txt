@@ -1,0 +1,84 @@
+typedef struct item {
+	int value;
+	struct item *next;
+} nodo;
+
+
+LETTURA DA FILE E INSERIMENTO IN LISTA SENZA PRIMITIVE:
+
+Item* LoadList(const char *filename) {
+
+FILE *f = fopen(filename, "r");
+
+	Item *i = NULL;
+
+	if (!f) {
+		return i;
+	}
+
+ElemType tmp;
+	while (1) {
+		if (1 != fscanf(f, "%i", &tmp)) {
+			break;
+		}
+	
+	nodo *head = malloc(sizeof(nodo)); //INSERIMENTO IN TESTA SENZA PRIMITIVE
+	head->value = tmp;
+	head->next = i;
+	i = head;
+	}
+	
+	return i;
+}
+
+
+
+
+
+// IsEmptyList
+
+if (i == NULL){	 //IsEmptyList
+
+}
+
+
+
+
+
+
+// Ritorno valore di testa
+
+        &i->value;
+
+
+
+
+
+
+//	GetTailList
+
+	i = i->next;
+	
+	
+	
+
+
+//	WriteStdoutList
+
+WriteList(i, stdout);
+
+
+
+
+// ElemCompare
+
+ (*e1 > *e2) - (*e1 < *e2)
+ 
+ @return La funzione ritorna un valore intero che indica la relazione tra i due
+        elementi, ovvero:
+         - -1 se il contenuto del primo e' minore di quello del secondo;
+         -  0 se i contenuti dei due elementi sono uguali
+         -  1 se il contenuto del primo e' maggiore di quello del secondo;
+ 
+ 
+
